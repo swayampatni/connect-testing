@@ -1,0 +1,27 @@
+{
+  "name": "connect-testing",
+  "version": "0.0.1",
+  "description": "Connect mock request useful for testing.",
+  "keywords": [
+    "connect",
+    "mock",
+    "request",
+    "http",
+    "test"
+  ],
+  "author": "swayam patni",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/swayampatni/connect-testing.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "index",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "~1.5.0",
+    "mocha": "~1.8.2",
+    "connect": "~2.7.3"
+  }
+}
